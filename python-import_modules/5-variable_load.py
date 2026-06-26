@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-"""Import variable a from variable_load_5 module"""
-a = __import__("variable_load_5").a
+"""Print the value of variable a from variable_load_5 module"""
+from variable_load_5 import a
+
+if __name__ == "__main__":
+    print(a)
